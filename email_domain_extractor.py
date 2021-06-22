@@ -1,3 +1,6 @@
+#Extract email domains from a list of email headers (in the .txt format) and calculate their frequency. 
+#Then create a SQLite database with 2 columns, Email_Domain and Count to store the result.
+
 import sqlite3
 
 conn = sqlite3.connect('Email_Domain_Db.sqlite')
